@@ -1,8 +1,30 @@
+html,body{height:100%; width:100%
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     height: 100%;
-    background-color:chocolate;
+    background-color:rgb(207, 85, 111);
 }
+
+.title {
+    background-color:darkblue;
+    display:inline-block;
+    float: left;
+    width:100%;
+}
+
+.neon {
+    color: #fbfdfb;
+    text-transform: none;
+  }
+
 .main {
     background-color:deepskyblue;
     display:inline-block;
@@ -11,16 +33,6 @@ body {
     height: 100%;
 }
 
-.title {
-    background-color:darkblue;
-    display:inline-block;
-    float: left;
-}
-.neon {
-    color: #fbfdfb;
-    text-transform: none;
-  }
-
 .container {
     background-color:deepskyblue;
     display:inline-block;
@@ -28,6 +40,11 @@ body {
     width: 60%;
     height: 100%;
 }
+
+.register {
+    text-transform: uppercase;
+  }
+
 .hr {
     color:#1c411c;
     text-size-adjust: 10px;
