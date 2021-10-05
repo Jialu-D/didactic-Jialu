@@ -28,7 +28,6 @@ body {
     display: inline-block;
     float: left;
     width: 60%;
-    height: 100%;
   }
 
 .register {
@@ -47,5 +46,4 @@ body {
     display: inline-block;
     float: left;
     width: 40%;
-    height: 100%;
   }
