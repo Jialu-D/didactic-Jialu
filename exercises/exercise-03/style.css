@@ -13,7 +13,6 @@ body {
 
 .title {
     background-color:darkblue;
-    display:inline-block;
     float: left;
     width:60%;
 }
