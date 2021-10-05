@@ -10,6 +10,9 @@ body {
 
 .title {
     background-color:darkblue;
-    color:white;
     display:inline-block;
 }
+.neon {
+    color: #fbfdfb;
+    text-transform: none;
+  }
