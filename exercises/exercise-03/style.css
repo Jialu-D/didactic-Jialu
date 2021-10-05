@@ -21,6 +21,7 @@ body {
     float: left;
     width: 60%;
     height: 100%;
+    max-height: fit-content;
 }
 
 .main {
@@ -28,6 +29,7 @@ body {
     display: inline-block;
     float: left;
     width: 60%;
+    max-height: fit-content;
   }
 
 .register {
