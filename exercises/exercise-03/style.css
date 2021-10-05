@@ -16,12 +16,6 @@ body {
     text-transform: none;
   }
 
-.main {
-    background-color:deepskyblue;
-    display:inline-block;
-    float: left;
-    width: 60%;
-}
 
 .container {
     background-color:deepskyblue;
@@ -30,6 +24,12 @@ body {
     width: 60%;
 }
 
+.main {
+    background-color:deepskyblue;
+    display:inline-block;
+    float: left;
+    width: 60%;
+}
 .register {
     text-transform: uppercase;
   }
