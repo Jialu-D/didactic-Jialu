@@ -11,4 +11,5 @@ body {
 .title {
     background-color:darkblue;
     color:white;
+    display:inline-block;
 }
