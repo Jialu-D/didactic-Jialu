@@ -6,11 +6,15 @@ body {
 .container{
     background-color:deepskyblue;
     display:inline-block;
+    float: left;
+    width: 60%;
+    height: 100%;
 }
 
 .title {
     background-color:darkblue;
     display:inline-block;
+    float: left;
 }
 .neon {
     color: #fbfdfb;
