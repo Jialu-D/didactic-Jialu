@@ -15,13 +15,19 @@ body {
     background-color:darkblue;
     display:inline-block;
     float: left;
-    width:100%;
 }
 .neon {
     color: #fbfdfb;
     text-transform: none;
   }
 
+.container {
+    background-color:deepskyblue;
+    display:inline-block;
+    float: left;
+    width: 60%;
+    height: 100%;
+}
 .hr {
     color:#1c411c;
     text-size-adjust: 10px;
