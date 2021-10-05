@@ -15,6 +15,7 @@ body {
     background-color:darkblue;
     display:inline-block;
     float: left;
+    width:60%;
 }
 .neon {
     color: #fbfdfb;
@@ -24,11 +25,11 @@ body {
 . sidebar {
     background:darkcyan;
     float:left;
-    width：60%;
+    width：0%;
     height:100%;
 }
 
 .hr {
-    color:darkgreen;
+    color:#1c411c;
     text-size-adjust: 10px;
 }
