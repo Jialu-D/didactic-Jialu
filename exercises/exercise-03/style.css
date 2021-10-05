@@ -1,11 +1,7 @@
 body {
     background-color:chocolate;
 }
-* {
-    margin: 100;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
   body {
     height: 100%;
   }
