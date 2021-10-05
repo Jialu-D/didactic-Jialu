@@ -1,7 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
     height: 100%;
-    background-color:deepskyblue;
 }
 
 .title {
@@ -17,14 +16,15 @@ body {
 
 
 .container {
-    background-color:deepskyblue;
+    background-color:rgb(133, 204, 228);
     display:inline-block;
     float: left;
     width: 60%;
+    height: 100%;
 }
 
 .main {
-    background-color: pink;
+    background-color: rgb(238, 207, 212);
     display: inline-block;
     float: left;
     width: 60%;
@@ -36,13 +36,15 @@ body {
   }
 
 .hr {
-    color:#1c411c;
+    color:#fafafa;
     text-size-adjust: 10px;
     text-transform: uppercase;
 }
 
 .sidebar {
     background:darkcyan;
+    display: inline-block;
     float:left;
     width：40%;
+    height: 100%;
 }
