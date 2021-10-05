@@ -23,15 +23,15 @@ body {
     text-transform: none;
   }
 
+.hr {
+    color:#1c411c;
+    text-size-adjust: 10px;
+    text-transform: uppercase;
+}
+
 . sidebar {
     background:darkcyan;
     float:left;
     width：0%;
     height:100%;
-}
-
-.hr {
-    color:#1c411c;
-    text-size-adjust: 10px;
-    text-transform: uppercase;
 }
