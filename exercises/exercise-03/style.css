@@ -20,3 +20,15 @@ body {
     color: #fbfdfb;
     text-transform: none;
   }
+
+. sidebar {
+    background:darkcyan;
+    float:left;
+    width：60%;
+    height:100%;
+}
+
+.hr {
+    color:darkgreen;
+    text-size-adjust: 10px;
+}
