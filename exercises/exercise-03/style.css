@@ -30,7 +30,6 @@ body {
     display:inline-block;
     float: left;
     width: 60%;
-    height: 100%;
 }
 
 .container {
@@ -38,7 +37,6 @@ body {
     display:inline-block;
     float: left;
     width: 60%;
-    height: 100%;
 }
 
 .register {
@@ -55,5 +53,4 @@ body {
     background:darkcyan;
     float:left;
     width：0%;
-    height:100%;
 }
