@@ -35,10 +35,24 @@ aside{
     width:20%;
     background-color:coral;
     display:inline-block;
+    float:left;
+    height:100%;
 }
 
 section{
     width:60%;
     background-color:darkseagreen;
     display:inline-block;
+    float:left;
+    height:100%;
+}
+
+.box{
+    position:relative;
+    top:100px;
+    left:150px;
+    width:150px;
+    height:300px;
+    background-color:gold;
+
 }
