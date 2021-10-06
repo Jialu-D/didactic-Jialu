@@ -34,9 +34,11 @@ main{
 aside{
     width:20%;
     background-color:coral;
+    display:inline-block;
 }
 
 section{
     width:60%;
     background-color:darkseagreen;
+    display:inline-block;
 }
