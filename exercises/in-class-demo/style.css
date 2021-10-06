@@ -31,3 +31,12 @@ main{
     background-color: blanchedalmond;
 }
 
+aside{
+    width:20%;
+    background-color:coral;
+}
+
+section{
+    width:60%;
+    background-color:darkseagreen;
+}
