@@ -3,14 +3,30 @@ body{
 }
 .container{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     
 }
 
 .item {
     margin:5px;
-    width:100px;
-    height:100px;
-    background-color:tomato;
+    width:500px;
+    max-height: max-content;
+    background-color:rgb(61, 61, 138);
     font-size: 42px;
+    color:white;
+}
+
+.q{
+    color: #d3d3d3;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size:0.8em;
+}
+
+.w{
+    color:black;
+    font-size:0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
