@@ -1,0 +1,9 @@
+nav{
+    height:60px;
+}
+
+ul.container{
+    display:flex;
+    justify-content: space-around;
+}
+
