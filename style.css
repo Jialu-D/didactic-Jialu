@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav{
     height:60px;
 }
@@ -5,5 +10,31 @@ nav{
 .container{
     display:flex;
     justify-content: space-around;
+    list-style: none;
+    background-color: tomato;
+    line-height: 60px;
 }
 
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
+Li:hover{
+    animation: 
+}
+
+@keyframes changeMe{
+    0%{
+        background-color: tomato;
+    }
+    50% {
+        background-color: #8CC000;
+    }
+    75% {
+        background-color: #000000;
+    }
+    100% {
+        background-color:tomato;
+    }
+}
