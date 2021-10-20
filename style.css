@@ -3,10 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Source Sans Pro", sans-serif;
+}
 nav{
     height:60px;
 }
 
+main{
+    height:80%;
+    background:smoke;
+}
 .container{
     display:flex;
     justify-content: space-around;
@@ -25,10 +33,11 @@ Li{
 }
 
 Li:hover{
-    animation: 
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
 }
 
-@keyframes changeMe{
+@keyframes changeMe {
     0%{
         background-color: tomato;
     }
