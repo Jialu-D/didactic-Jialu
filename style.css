@@ -20,6 +20,10 @@ nav{
     color: white;
 }
 
+Li{
+    padding: 0 40px;
+}
+
 Li:hover{
     animation: 
 }
