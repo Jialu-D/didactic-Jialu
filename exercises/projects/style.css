@@ -1,0 +1,57 @@
+* {
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;   
+   }
+   
+html, body{
+    height:100%;
+}
+
+
+.container {
+    background-color:lemonchiffon;
+    height:100%;
+}
+
+header{
+    height:10%;
+    background-color:tomato;
+}
+
+nav,footer {
+   height:5%;
+   background-color:aquamarine; 
+}
+
+main{
+    height:80%;
+    background-color: blanchedalmond;
+}
+
+aside{
+    width:40%;
+    background-color:coral;
+    display:inline-block;
+    height:100%;
+    float: right;
+}
+
+section{
+    width:60%;
+    background-color:darkseagreen;
+    display:inline-block;
+    height:100%;
+    float: left;
+}
+
+.box{
+    position:fixed;
+    top:100px;
+    right:150px;
+    width:300px;
+    height:300px;
+    background-color:gold;
+
+}
+
