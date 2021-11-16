@@ -17,17 +17,19 @@ nav{
 
 main{
     height:80%;
-    background：smoke；
-}
-.container{
-    display:flex;
-    justify-content: space-around;
-    list-style： none；
-    background-color: tomato;
-    line-height: 60px;
+    background:smoke;
 }
 
-.container a {
+.container {
+    display: flex;
+    justify-content: space-around;
+  
+    list-style: none;
+    background: tomato;
+    line-height: 60px;
+  }
+
+  .container a {
     text-decoration: none;
     color: white;
 }
@@ -36,21 +38,21 @@ Li{
     padding: 0 40px;
 }
 
-Li:hover{
-    animation:changeMe 3s ease-in-out .2s；
-}
-
-@keyframes changeMe {
-    0%{
-        background-color: tomato;
+li:hover {
+    animation: changeMe 3s ease-in-out .2s;
+  }
+  
+  @keyframes changeMe {
+    0% {
+      background-color: tomato;
     }
-    50% {
-        background-color: #8CC000;
+    50%{
+      background-color: #CC0000;
     }
-    75% {
-        background-color: #000000;
+    75%{
+      background-color: #800000;
     }
     100% {
-        background-color:tomato;
+      background-color: tomato;
     }
-}
+  }
