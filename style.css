@@ -3,22 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+html,body{
+    height:100%；
+}
 
 body{
     font-family: "Source Sans Pro", sans-serif;
 }
+
 nav{
-    height:60px;
+    height:20%;
 }
 
 main{
     height:80%;
-    background:smoke;
+    background：smoke；
 }
 .container{
     display:flex;
     justify-content: space-around;
-    list-style: none;
+    list-style： none；
     background-color: tomato;
     line-height: 60px;
 }
@@ -33,7 +37,7 @@ Li{
 }
 
 Li:hover{
-    animation:bounceIn 3s ease-in-out；
+    animation:changeMe 3s ease-in-out .2s；
 }
 
 @keyframes changeMe {
