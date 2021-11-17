@@ -90,7 +90,9 @@ section{
     display:inline-block;
     height:100%;
     float: left;
-    background-image: url("C:/Users/lenovo/Desktop/image for coding");
+    background-image: url("./1.jpg");
+    background-size:500px;
+    background-position-y: center;
 }
 
 .box1{
