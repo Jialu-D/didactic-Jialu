@@ -25,7 +25,7 @@ function turnPageBlue(){
 }
 
 function turnPageRed(){
-  console.log("turn me tomato");
+  console.log("turn me red");
   let body=document.querySelector("body");
   body.style.backgroundColor="tomato";
 }
