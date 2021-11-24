@@ -1,5 +1,7 @@
 let yellowCircle=document.getElementById("yellowButton");
 let blueCircle=document.getElementById("blueButton");
+let whiteCircle=document.getElementById("whiteButon");
+let redCircle=document.getElementById("redButon");
 
 
 yellowCircle.addEventListener("click",turnPageYellow);
