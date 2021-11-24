@@ -13,6 +13,7 @@ function turnPageYellow(){
   console.log("turn me yellow");
   let body=document.querySelector("body");
   body.style.backgroundColor="yellow";
+  body.style.color="black";
 }
 
 
@@ -27,5 +28,5 @@ function turnPageBlue(){
 function turnPageRed(){
   console.log("turn me red");
   let body=document.querySelector("body");
-  body.style.backgroundColor="tomato";
+  body.style.backgroundColor="red";
 }
