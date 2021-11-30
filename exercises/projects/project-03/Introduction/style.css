@@ -1,12 +1,13 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: black;
+    
   }
   
   .container {
     padding: 20px 40px;
     width: 50%;
     line-height: 1.68;
+    background-color: black;
   }
   
   h1 {
