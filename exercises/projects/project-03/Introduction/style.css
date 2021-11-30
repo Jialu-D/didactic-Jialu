@@ -1,13 +1,14 @@
 body {
     font-family: "Open Sans", sans-serif;
-    
+    background-color: black;
   }
   
   .container {
-    padding: 20px 40px;
-    width: 50%;
-    line-height: 1.68;
-    background-color: black;
+    padding:0px;
+    margin:0px;
+    font-size:14px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
   }
   
   h1 {
