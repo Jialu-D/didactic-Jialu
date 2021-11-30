@@ -80,8 +80,8 @@ aside{
     width:20%;
     display:inline-block;
     height:100%;
-    float: right;
     background-color:whitesmoke;
+    float:right;
 }
 
 section{
