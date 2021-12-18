@@ -2455,7 +2455,7 @@ a {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/1_1.jpg'), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/1_1.jpg'), linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-position: 0px 0px, 0% 50%, 0px 0px;
-  background-size: auto, auto, auto;
+  background-size: auto, 50%, auto;
   background-repeat: repeat, repeat-y, repeat;
   background-attachment: scroll, scroll, scroll;
   color: #959595;
@@ -2906,16 +2906,70 @@ a {
 
 .card-pizza {
   background-color: #a14848;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/VCG211204219977.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/VCG211204219977.jpg');
+  background-position: 0px 0px, 0% 50%;
+  background-size: auto, auto;
+}
+
+.card-pizza._7 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/4_1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/4_1.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+}
+
+.card-pizza._1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/2_1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/2_1.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
 }
 
 .second-card-pizza {
   position: relative;
   top: 52px;
   background-color: #6e2727;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/4_1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/4_1.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.second-card-pizza._2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/3_1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/3_1.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.second-card-pizza._1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/2_1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/2_1.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
 }
 
 .third-card-pizza {
   background-color: #532424;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/4_1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/4_1.jpg');
+  background-position: 0px 0px, 100% 0%;
+  background-size: auto, cover;
+}
+
+.third-card-pizza._2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/VCG211204219977.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/VCG211204219977.jpg');
+  background-position: 0px 0px, 100% 0%;
+  background-size: auto, cover;
+}
+
+.third-card-pizza._1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/2_1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/2_1.jpg');
+  background-position: 0px 0px, 100% 0%;
+  background-size: auto, cover;
 }
 
 .wrapper-image-card {
@@ -2982,11 +3036,10 @@ a {
 }
 
 .filter-card.first {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/VCG211161901922.jpg'), url('../images/VCG211161901922.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/VCG211161901922.jpg'), url('../images/VCG211161901922.jpg');
-  background-position: 0px 0px, 50% 50%, 0% 0%;
-  background-size: auto, auto, auto;
-  background-repeat: repeat, repeat-y, repeat-y;
+  background-image: none;
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: repeat;
 }
 
 .filter-card._2 {
@@ -3004,8 +3057,10 @@ a {
 }
 
 .headig-card-menu-first {
+  position: static;
   color: #fff;
   text-align: center;
+  mix-blend-mode: normal;
 }
 
 .wrapper-icon-hero {
@@ -10073,8 +10128,10 @@ a {
   bottom: auto;
   z-index: 999;
   display: block;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -10111,6 +10168,19 @@ a {
 
 .heading-30 {
   position: static;
+}
+
+.heading-31 {
+  display: block;
+  text-align: center;
+}
+
+.heading-32 {
+  text-align: center;
+}
+
+.heading-33 {
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -14252,6 +14322,17 @@ a {
   grid-column-end: 4;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
+}
+
+#w-node-_6fc9853d-d74c-3f19-304e-ee6f89ac9622-cb6b6fbe {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
 }
 
 #w-node-ad6c6d32-5e8b-401a-6374-ff0b5d074f04-816b6fbf {
