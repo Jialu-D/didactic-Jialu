@@ -60,9 +60,16 @@ body,html{
     padding:20px;
 }
 
-.header{
-    height:5px;
+@media (max-width:800px) {
+    body,html{
+        background-color: white;
+        color:black;
+    }
 }
 
-
-    
+@media (mid-width:800px){
+    body,html{
+        background: black;
+        color:white;
+    }
+}
